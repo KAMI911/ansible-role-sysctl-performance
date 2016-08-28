@@ -1,0 +1,2 @@
+---
+sysctl_dinamic_file: /etc/sysctl.d/99-performance.conf

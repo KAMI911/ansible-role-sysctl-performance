@@ -1,0 +1,10 @@
+#
+# Tasks for sysctl performance settings
+#
+---
+- name: include OS-specific variables.
+  include_vars: "{{ ansible_os_family }}.yml"
+
+- name: set sysctl parameters for performance
+  copy: src=/etc/ansible/roles/sysctl-performance/files/99-performance.conf dest={{ sysctl_dinamic_file }} owner=root group=root mode=0644
+  notify: reload sysctl

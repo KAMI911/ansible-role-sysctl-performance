@@ -1,0 +1,6 @@
+#
+# Reload sysctl settings
+#
+---
+- name: reload sysctl
+  shell: sysctl -p
