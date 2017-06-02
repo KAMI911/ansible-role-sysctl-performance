@@ -1,0 +1,8 @@
+#
+# Testing sysctl performance settings Ansible role
+#
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - sysctl-performance
