@@ -5,4 +5,4 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - sysctl-performance
+    - ansible-role-sysctl-performance
