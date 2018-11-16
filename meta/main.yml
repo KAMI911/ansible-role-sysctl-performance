@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: sysctl-performance
   author: Kálmán Szalai - KAMI
   description: Performance settings for Linux system
   license: MIT
